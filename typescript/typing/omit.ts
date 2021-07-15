@@ -1,5 +1,6 @@
 // This example will show how you can create a new type by modifying an existing type and omitting certain keys.
 // This is useful for when you have similar interfaces apart from a single key
+// docs: https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys
 
 /**
  * Generic range type
