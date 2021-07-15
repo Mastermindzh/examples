@@ -1,0 +1,7 @@
+*.scss
+*.d.ts
+*.spec.ts
+main.browser.ts
+idex.js
+node_modules/*
+*.e2e.*

@@ -1,0 +1,39 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+publish/
+build/Release
+coverage
+lib-cov
+
+# deps
+node_modules/
+__pycache__/
+
+# Logs
+logs
+*.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Mac files
+.DS_Store
+
+# randoms
+*.pyc
+dbdata
+old
+yarn-error.log
+dist
+*/test-results

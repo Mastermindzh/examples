@@ -1,0 +1,60 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-scss",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "font-family-name-quotes": "always-where-recommended",
+    "function-url-quotes": [
+      "always",
+      {
+        "except": ["empty"]
+      }
+    ],
+    "declaration-empty-line-before":[
+      "never",
+    ],
+    "comment-empty-line-before":[
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["stylelint-commands"],
+        "ignoreComments": ["/BEGIN/", "/END/", "/ignore/"]
+      }
+    ],
+    "selector-max-compound-selectors": 5,
+    "color-hex-length": "long",
+    "selector-pseudo-element-colon-notation": "single",
+    "selector-attribute-quotes": "always",
+    "string-quotes": "double",
+    "max-nesting-depth": 3,
+    "selector-max-specificity": "0,3,2",
+    "declaration-no-important": true,
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+    "no-empty-source": null,
+    "selector-class-pattern": "[a-z-]+",
+    "selector-id-pattern": "[a-z-]+",
+    "selector-max-id": 0,
+    "selector-max-universal": 2,
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignore": ["custom-elements", "default-namespace"]
+      }
+    ],
+    "selector-pseudo-element-no-unknown": [
+      true,
+      {
+        "ignorePseudoElements": ["ng-deep"]
+      }
+    ],
+    "unit-allowed-list": ["px", "%", "em", "rem", "vw", "vh", "deg", "s"],
+    "max-empty-lines": 2,
+    "max-line-length": 120
+  }
+}

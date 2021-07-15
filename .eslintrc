@@ -1,0 +1,63 @@
+{
+    "env": {
+      "browser": true,
+      "jest": true,
+      "es6": true
+    },
+    "plugins": ["import"],
+    "extends": ["eslint:recommended", "prettier"],
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-console": [
+        "error",
+        {
+          "allow": ["debug", "error"]
+        }
+      ],
+      "no-eval": "error",
+      "import/first": "error",
+      "camelcase": [
+        "error",
+        {
+          "ignoreImports": true,
+          "ignoreDestructuring": true
+        }
+      ],
+      "consistent-return": "warn",
+      "comma-dangle": ["warn", "always-multiline"],
+      "constructor-super": "error",
+      "curly": "error",
+      "eol-last": "warn",
+      "eqeqeq": ["error", "smart"],
+      "import/order": "always",
+      "new-parens": "error",
+      "no-debugger": "error",
+      "no-fallthrough": "off",
+      "max-len": [
+        "warn",
+        {
+          "code": 100
+        }
+      ],
+      "no-shadow": [
+        "error",
+        {
+          "hoist": "all"
+        }
+      ],
+      "no-trailing-spaces": "warn",
+      "no-underscore-dangle": "error",
+      "no-unsafe-finally": "error",
+      "no-var": "error",
+      "object-shorthand": "error",
+      "one-var": ["error", "never"],
+      "prefer-arrow/prefer-arrow-functions": "off",
+      "prefer-const": "error",
+      "radix": "off",
+      "space-in-parens": ["off", "never"]
+    }
+  }
+  
