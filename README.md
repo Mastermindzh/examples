@@ -37,8 +37,8 @@ It also consolidates all relevant examples in 1 place
 
 ├── mongo
 │   ├── add-field-with-default-value.js # add a field to an existing collection with a default value
-│   └── collectionNames-and-count.js # return a list of collections in a database with the number of documents in them
-
+│   ├── collectionNames-and-count.js # return a list of collections in a database with the number of documents in them
+│   └── get-json-with-all-fields-recursively.js # returns a single object containing all different (nested) keys from all documents in a collection
 ├── typescript
 │   ├── datetime
 │   │   └── getCustomIsoString.ts # function to return a valid ISO string from a given date object
