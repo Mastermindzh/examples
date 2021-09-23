@@ -26,7 +26,8 @@ It also consolidates all relevant examples in 1 place
 │       ├── async.js
 │       ├── image.png
 │       └── README.md
-
+│   └── encoding
+│       └── utf-16-base64.js # an example showing how to encode/decode UTF-16 strings
 ├── js-ts-frameworks # JS-TS framework specific examples
 │   ├── Angular
 │   │   └── state
