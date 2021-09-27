@@ -14,6 +14,7 @@ It also consolidates all relevant examples in 1 place
 ```sh
 .
 ├── bash
+│   ├── find-all-without.sh # find all files with glob (*) whilst ignoring another glob (*)
 │   ├── parsing-command-line-params.sh
 │   ├── remove-parentheses.sh # script to remove parentheses from all files in a directory (recursively)
 │   └── whiptail.sh # tiny demo of how whiptail works
